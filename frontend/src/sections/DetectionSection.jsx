@@ -37,7 +37,7 @@ function DetectionSection() {
         setIsSpam(false);
       }
     } catch (err) {
-      setError("Something went wrong while checking the email.");
+      setError("Server not working.");
     } finally {
       setLoading(false);
     }
